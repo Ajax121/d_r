@@ -1,6 +1,8 @@
 import pandas as pd
 def random_recomm(k=10):
-	"""ads"""
-	df = pd.read_csv('data/movies.csv')
-	return df['title'].sample(k)
+	"""
+	ads
+	"""
+	d_f = pd.read_csv('data/movies.csv')
+	return d_f['title'].sample(k)
 print(random_recomm())
